@@ -1,32 +1,52 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class='flex h-screen p-4' v-if='!getIsUsersLoading'>
+      <body-vue />
+      <right-menu  />
     </div>
-    <router-view />
+    <div class="flex items-center justify-center h-screen w-full bg-black bg-opacity-25" v-else >
+      <spinner size="80" :line-size='7' />
+    </div>
+    
   </div>
 </template>
+<script>
+import bodyVue from "@/components/Body.vue";
+import rightMenu from "@/components/RightMenu.vue";
+import Spinner from 'vue-simple-spinner'
+
+import { mapActions, mapGetters } from 'vuex'
+
+export default {
+  components: {
+    bodyVue,
+    rightMenu,
+    Spinner
+  },
+  created(){
+    this.getUsers()
+  },
+  methods: {
+    ...mapActions([
+      'getUsers'
+    ])
+  },
+  computed: {
+    ...mapGetters([
+      'getIsUsersLoading', 'getUsersCollection'
+    ])
+  }
+};
+</script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
