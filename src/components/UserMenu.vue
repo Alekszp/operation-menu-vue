@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full absolute bottom-0 left-0 rounded flex align-center justify-between bg-gray-400 py-3 px-3">
+  <div class="user-menu w-full absolute bottom-0 left-0 rounded-lg flex align-center justify-between py-3 px-3">
     <avatar :imageSrc='getUsersCollection[5].picture.thumbnail' />
     <div class="text-xs">
-      <div class="text-left">{{`${getUsersCollection[5].name.first} ${getUsersCollection[5].name.last}`}}</div>
+      <div class="font-medium text-left">{{`${getUsersCollection[5].name.first} ${getUsersCollection[5].name.last}`}}</div>
       <div class="text-left text-gray-600">Newage System</div>
     </div>
     <div class="space-y-2">
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style>
-  .menu {
-    width: 300px;
+  .user-menu {
+    background-color: #EEEEEE;
   }
 </style>

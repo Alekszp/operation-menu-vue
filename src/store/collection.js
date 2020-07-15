@@ -30,7 +30,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 21239,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -41,7 +41,7 @@ const operationsCollection = [
             description: 'Аванс июль',
             paymentStaus: 'Оплачено',
             amount: 56000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -52,7 +52,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 170000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
         ]
@@ -67,7 +67,7 @@ const operationsCollection = [
             description: 'Оплата обучения',
             paymentStaus: 'Оплачено',
             amount: 8000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -78,7 +78,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 170000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -89,7 +89,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 21239,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
         ]
@@ -104,7 +104,7 @@ const operationsCollection = [
             description: 'Оплата обучения',
             paymentStaus: 'Оплачено',
             amount: 1000000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -115,7 +115,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 1700,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -126,7 +126,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 15000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
         ]
@@ -145,7 +145,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 21239,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -156,7 +156,7 @@ const operationsCollection = [
             description: 'Аванс июль',
             paymentStaus: 'Оплачено',
             amount: 56000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -167,7 +167,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 170000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
         ]
@@ -182,7 +182,7 @@ const operationsCollection = [
             description: 'Оплата обучения',
             paymentStaus: 'Оплачено',
             amount: 8000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -193,7 +193,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 170000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -204,7 +204,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 21239,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
         ]
@@ -219,7 +219,7 @@ const operationsCollection = [
             description: 'Оплата обучения',
             paymentStaus: 'Оплачено',
             amount: 1000000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -230,7 +230,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 1700,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -241,7 +241,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 15000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
         ]
@@ -260,7 +260,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 21239,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -271,7 +271,7 @@ const operationsCollection = [
             description: 'Аванс июль',
             paymentStaus: 'Оплачено',
             amount: 56000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -282,7 +282,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 170000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
         ]
@@ -297,7 +297,7 @@ const operationsCollection = [
             description: 'Оплата обучения',
             paymentStaus: 'Оплачено',
             amount: 8000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -308,7 +308,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 170000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -319,7 +319,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 21239,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
         ]
@@ -334,7 +334,7 @@ const operationsCollection = [
             description: 'Оплата обучения',
             paymentStaus: 'Оплачено',
             amount: 1000000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'up'
           },
           {
@@ -345,7 +345,7 @@ const operationsCollection = [
             description: 'Аванс за разработку',
             paymentStaus: 'Оплачено',
             amount: 1700,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
           {
@@ -356,7 +356,7 @@ const operationsCollection = [
             description: 'Оплата за продвижение Google Adwords июнь-июль',
             paymentStaus: 'Оплачено',
             amount: 15000,
-            currency: 'UAH',
+            currency: '&#8372;',
             trend: 'down'
           },
         ]

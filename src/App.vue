@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class='flex h-screen p-4' v-if='!getIsUsersLoading'>
+    <div class='flex h-screen p-4 text-gray-2E' v-if='!getIsUsersLoading'>
       <body-vue />
       <right-menu  />
     </div>
@@ -45,7 +45,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 

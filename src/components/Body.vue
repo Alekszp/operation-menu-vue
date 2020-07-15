@@ -1,11 +1,12 @@
 <template>
-  <div class="bodyOperations h-screen w-full pr-3 overflow-auto relative">
+  <div class="bodyOperations bg-gray-FB h-full w-full pr-3 pl-4 overflow-auto">
     <filters />
     <graph />
     <sorting />
     <operations />
-    <button class="absolute bottom-10 right-10">
-      <icon-base class="h-6" icon-name="trash"><icon-trash /></icon-base>
+    <button class="fixed rounded-full w-16 h-16 bg-gray-2E text-gray-FF text-3xl bottom-0 mb-8 ml-10 left-0">+</button>
+    <button class="trash-icon fixed bg-gray-FB bg-opacity-75 border border-gray-D8 rounded-full w-16 h-16 bottom-0 mb-8">
+      <icon-base icon-name="trash" width="36" height="26" view-box="4 0 22 26" icon-color="#D8D8D8"><icon-trash /></icon-base>
     </button>
 
   </div>
@@ -35,7 +36,13 @@
 
 <style>
   .bodyOperations::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
+    width: 0px;
+    background: transparent;  
+  }
+  .bodyOperations {
+    overflow-x: auto !important;
+  }
+  .trash-icon {
+    right: 320px;
+  }
 </style>

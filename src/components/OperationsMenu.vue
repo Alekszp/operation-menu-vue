@@ -1,30 +1,30 @@
 <template>
-  <div class="mt-4 mx-4">
+  <div class="operations-menu mt-4 mx-4">
     <ul>
-      <li class="flex items-center hover:bg-gray-400 hover:font-bold rounded pl-3 py-2">
+      <li class="flex items-center bg-gray-EE font-medium rounded-lg pl-3 py-2">
         <icon-base icon-name="operation"><icon-operation /></icon-base>
         <span class="ml-3">Операции</span>
       </li>
-      <li class="flex items-center hover:bg-gray-400 hover:font-bold rounded pl-3 py-2">
+      <li class="flex items-center font-medium text-gray-2E text-opacity-60 rounded-lg pl-3 py-2">
         <icon-base icon-name="reports"><icon-reports /></icon-base>
         <span class="ml-3">Отчетьі</span>
       </li>
-      <li class="flex items-center hover:bg-gray-400 hover:font-bold rounded pl-3 py-2">
+      <li class="flex items-center font-medium text-gray-2E text-opacity-60 rounded-lg pl-3 py-2">
         <icon-base icon-name="Contragents"><icon-contragents /></icon-base>
         <span class="ml-3">Контрагентьі</span>
       </li>
-      <li class="flex items-center hover:bg-gray-400 hover:font-bold rounded pl-3 py-2">
+      <li class="flex items-center font-medium text-gray-2E text-opacity-60 rounded-lg pl-3 py-2">
         <icon-base icon-name="work"><icon-work /></icon-base>
         <span class="ml-3">Проектьі</span>
       </li>
-      <li class="flex items-center hover:bg-gray-400 hover:font-bold rounded pl-3 py-2">
+      <li class="flex items-center font-medium text-gray-2E text-opacity-60 rounded-lg pl-3 py-2">
         <icon-base icon-name="accounts"><icon-accounts /></icon-base>
         <span class="ml-3">Статьи расходов</span>
       </li>
-      <li class="flex items-center hover:bg-gray-400 hover:font-bold rounded pl-3 py-2">
-        <img class="" src="@/assets/img/person-icon.svg" alt="copy" />
+      <li class="flex items-center font-medium text-gray-2E text-opacity-60 rounded-lg pl-3 py-2">
+        <img class="peson-icon-style" src="@/assets/img/person-icon.svg" alt="copy" />
             <!-- get to much time to set up view as mockup -->
-        <!-- <icon-base icon-name="person" height="10"><icon-person /></icon-base> -->
+        <!-- <icon-base icon-name="person"><icon-person /></icon-base> -->
         <span class="ml-3">Сотрудники</span>
       </li>
     </ul>
@@ -55,5 +55,19 @@
   };
 </script>
 
-<style>
+<style scoped>
+  .operation-menu {
+    color: #2E2E2E;
+  }
+  .operations-menu li:hover {
+    background-color: #EEEEEE;
+    color: #2E2E2E;
+    cursor: pointer;
+  }
+  .operations-menu li:hover .peson-icon-style{
+    opacity: 1;
+  }
+  .peson-icon-style {
+    opacity: .6;
+  }
 </style>

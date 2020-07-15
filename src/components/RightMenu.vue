@@ -1,7 +1,7 @@
 <template>
-  <div class="menu h-full bg-custom-grey-menu relative">
+  <div class="menu rounded-lg bg-gray-F5 relative">
     <div class="flex items-center justify-between mt-4 mx-4">
-      <h2 class="text-xl">Все деньги</h2>
+      <h2 class="text-xl font-medium">Все деньги</h2>
       <img class="" src="@/assets/img/logo.svg" alt="logo" />
     </div>
     <money-amount />
